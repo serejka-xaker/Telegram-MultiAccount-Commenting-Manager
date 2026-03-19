@@ -24,7 +24,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone [URL репозитория]
+git clone https://github.com/serejka-xaker/Telegram-MultiAccount-Commenting-Manager.git
 cd Telegram-MultiAccount-Commenting-Manager
 ```
 
@@ -37,6 +37,7 @@ pip install -r requirements.txt
 
 ### 1. Подготовка аккаунтов
 - Создайте папку с данными аккаунта в директории `new_accounts/`
+- Каждый аккаунт в отдельной папке
 - Структура папки аккаунта должна содержать необходимые файлы сессии Telegram
 
 ### 2. Настройка прокси
