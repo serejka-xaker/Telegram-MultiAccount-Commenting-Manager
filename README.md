@@ -273,7 +273,7 @@ POST http://localhost:5000/comments/start HTTP/1.1
 Content-Type: application/json
 
 {
-    "post_link": "https://example.com/post1",
+    "post_link": "https://t.me/telegram_channel/4814",
     "comments": [
         {"gender": "male", "text": "Отличный пост!"},
         {"gender": "female", "text": "Согласна с автором!"}
@@ -286,7 +286,7 @@ Content-Type: application/json
 ```json
 {
     "request_id": "20250314_120000",
-    "post_link": "https://example.com/post1",
+    "post_link": "https://t.me/telegram_channel/4814",
     "total_comments": 2,
     "success_count": 2,
     "error_count": 0,
